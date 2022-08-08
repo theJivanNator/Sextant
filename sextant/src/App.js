@@ -1,11 +1,13 @@
 import React from "react";
-
-
+import TopBanner from "./components/TopBanner";
+import Card from "./components/Card"
 function App() {
- return (
-<div>
-  This a test 
-</div>
+ return (  
+  <><TopBanner/>
+    <div>
+    <Card/>
+    </div>
+  </>
 
  );
 }

@@ -1,0 +1,36 @@
+.banner{
+    background-color: rgb(238, 26, 26);
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-transition-appear {
+    opacity: 0.01;
+  }
+  
+  .banner-transition-appear.banner-transition-appear-active {
+    opacity: 1;
+    transition: opacity 2s ease;
+  }
+  
+  .banner-transition-leave {
+    opacity: 1;
+  }
+  
+  .banner-transition-leave.banner-transition-leave-active {
+    opacity: 0.01;
+    transition: opacity 2s ease;
+  }
+
+  .blocks{
+    background-color:rgba(0, 255, 255, 0.178);
+    color:black;padding:20px;
+  }
