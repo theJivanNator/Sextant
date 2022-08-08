@@ -31,6 +31,7 @@
   }
 
   .blocks{
+    margin-top: 10px;
     background-color:rgba(0, 255, 255, 0.178);
     color:black;padding:20px;
   }
